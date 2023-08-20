@@ -1,0 +1,12 @@
+ARRAYS:
+-An array in java is an object
+-An array variable references a group of data
+-The size of an array is fixed
+     DEFAULT VALUES
+     When an array is created, its elements are assigned the following default values:
+     -0 for the numeric primitive data types
+     -\u0000 for char types
+     -false for boolean types
+     -null for reference types
+     int[] numbers=new int[5]; //{0,0,0,0,0}
+     numbers[0]=5

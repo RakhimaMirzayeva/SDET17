@@ -1,0 +1,64 @@
+
+
+
+Operators:
+operators are symbols which perform and operation on data. There are many
+different types of operators in Java.
+
+ARITHMETIC OPERATORS:
+
+These operators help us perform simple mathematical operations like
+Addition    => +    int a=10  int b=20  int c=a+b;  =>30
+Subtraction   => -
+Multiplication  => *
+Division => /
+Modulus  => %
+
+SHORTHAND OPERATORS:
+
+They help us perform Mathematical operations but using a little shorthand syntax.
+add and  update the variable  =+  int a=10 a+=20  => 30
+subtract and update the variable  -= int a=10 a-=20 => -10
+Multiply and update the variable *= int a=10 a*20 => 200
+Divide and update the variable /= int a=10 a/20 =>0
+Modulus and update the variable %= int a=10  a%20  => 10
+
+RELATIONAL OPERATORS:
+
+These operators help us compare things.
+== checks if two objects are equal.
+!=  checks if two objects are NOT equal
+> Greater than
+< Less than
+>= Greater than equal
+<= Less than equal
+
+ LOGICAL OPERATORS
+
+ They help us combine multiple boolean conditions.
+ There are three main logical operators in Java.
+ ! NOT
+ || OR
+ && AND
+&& = (AND) both conditions must be true
+| | = (OR) either condition must be true( 1 true condition will be enough for
+the entire condition to be true).
+! = (NOT) reverses boolean value of condition
+EX: boolean cond=true;
+sout"!cond";
+
+
+ INCREMENT/DECREMENT OPERATORS:
+
+ ++ these will help us increase the value of a variable by one(1)
+ -- these will help us decrease the value of a variable by one(1)
+
+
+ NOTE:
+ WWHILE LOOP:
+ Checks the condition first then executes the code.
+ DO WHILE on the other hand executes the code first and then checks the condition.
+  Sometimes when we write the logic using do while it becomes easier. There are no other differences and reason to
+  use a do while instead of while.
+
+

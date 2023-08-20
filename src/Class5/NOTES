@@ -1,0 +1,24 @@
+logical operators:
+logical operators helps combine multiple conditions on the same line in if statements.
+There are 3 types of logical operators NOT(!) OR(||) AND(&&)
+NOT(!):True=>false
+        False=>true
+        apply NOT operations when you want the opposite of the condition
+        Only works with boolean
+Why should we use NOT operators:
+1) It can help us simplify the logic in some of the cases
+2) Code readability will in increase.
+OR(||):
+this or that, either condition
+Logical OR operator will help us combine multiple conditions in such a way that as soon as one
+condition gets true the whole condition will
+be evaluated true.
+true||false||true=>true
+false||false||false=>false
+true||true||true=>true
+AND(&&):
+logical AND operator will help us combine the conditions in such a way that it will only give
+ us true if all conditions are true.
+ true && false&&true=>false
+ true && true && true=>true
+ true && true &&true=>false

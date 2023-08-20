@@ -1,0 +1,48 @@
+NESTED LOOPS:
+
+A loop inside another loop, just like if statements.
+We can nest any type of loop.
+Why do we need them?
+To solve complex problems that requires accessing execess data.
+Nested Loops
+Outer loop will print for lines
+inner loop for colums
+
+ARRAYS:
+Is  a data structure that helps us store multiple items in a single variable.
+ We can use the indexes to access these values.
+ Arrays are data structures that help us store large amounts of similar data.
+ Indexes always start from zero.
+ Why should we use arrays?
+ Arrays help us store and manipulate large amounts of data easily with the help of loops
+ Whenever we have more than 3 similar items that we can to store and process together we should
+ always go with arrays.
+
+ Syntax:
+ There are two ways of creating the arrays
+ Method1:
+ Data Type[] nameOfTheArray={element1,element2,element3}
+ Method2:
+ DataType[]nameOfTheArray=new  DataType{Size]
+
+Enhanced For Loop:
+Enhanced For Loop is used to iterate through data structures which have multiple
+items stored inside them.
+Why should we use Enhanced For Loop:
+Because its simple, and easy to understand.
+SYntax:
+for(DataTypeOfElement anyVariableName:NameOfTheDataStructure){
+
+Limitations:
+1. Enhanced For Loop can't be used for updating the elements.
+2. Access the elements in the reverse order etc.
+
+BREAK:
+Break keyword is used in switch cases statements and with the loops to
+terminate the loop prematurely.
+Why should we use break keyword?
+using break keyword can help save a lot of processing time and our code can execute faster.
+
+CONTINUE: U Turn Sign
+is used to skip the code from a loop once we hit the skip keyword Java
+ignores the rest of the code in the loop and jumps to the next iteration.

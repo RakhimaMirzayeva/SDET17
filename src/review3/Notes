@@ -1,0 +1,9 @@
+Relational Operators:
+SWITCH can not used in (boolean, float, long, double)
+<>--Relational operators Can't be used in SWITCH
+ and Logical operations won't be useful for switch
+ Breaks helps to have a gaps in between cases.
+ Switch is faster, cleaner but Limited,
+ If Statement is longer
+LOOPS 3 Types
+WHILE; DO WHILE, FOR
