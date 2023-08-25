@@ -22,4 +22,7 @@ There are other ways like functional programming and procedural programming.
     A Class its like a map/blueprint/idea/design that we create before we start building
     the actual object. Classes have properties/attributes which helps us to figure out
     how something looks like and they have behavior/function which helps us understand how something works.
+When we use loops - when we want to repeat a block of code
+when we do not know the exact number of iterations use while or do while for this.
+when we know how many times we want to repeat or iterate the code-- use for loop
 
