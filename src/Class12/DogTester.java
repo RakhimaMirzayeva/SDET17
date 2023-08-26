@@ -1,8 +1,8 @@
 package Class12;
 
-public class DogTester {
-    public static void main(String[] args) {
-       Dog lunaObj=new Dog();// we are creating an object here
+
+
+       /*Dog lunaObj=new Dog();// we are creating an object here
        //assigning a value to name using lunaObj
        lunaObj.name="Luna";
        lunaObj.gender='F';
@@ -20,3 +20,5 @@ public class DogTester {
 
     }
 }
+
+        */

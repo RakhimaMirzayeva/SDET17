@@ -1,12 +1,8 @@
-package HOMEWORK;
+package Class13;
 
-public class Replit81 {
+public class E8StringMethods {
     public static void main(String[] args) {
-
-
 
 
     }
 }
-
-

@@ -1,0 +1,34 @@
+
+
+String Class:
+    String class is designed to store symbols(letterA,b,C), numbers(10,12),
+    Special character($,#,%) in form of a group. There are many methods already
+    written by Java developer that we can just use.
+    This is the most widely used class in Jva.
+For Example:
+    startsWith()
+    endsWith()
+    contains()
+Why we should learn about this class.
+1)Very important for coding questions
+2)Most widely used class in all java.
+3)Most of the information in real life is present in the form of Strings.
+
+    Method Changing:
+    When multiple methods are being called on the same line its called method changing
+    String claas supports methond changing, for method changing to work previous
+    method must return the expected datatype fo rthe next method.
+    For example:
+ String str="  Batch 17 is Great.   ";
+        System.out.println(str.toLowerCase().trim().replace("great","Good"));
+
+
+
+
+    NOTE:
+    Very Important for coding interview questions.
+    10 If else
+    2)Loops
+    3)Arrays
+    4)Strings
+To see whats behind the code just press and hold (comman0+press on the word
