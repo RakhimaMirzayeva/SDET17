@@ -5,7 +5,7 @@ public class E3StringDemo {
         String name="MADINA";
         System.out.println(name.toLowerCase());
         System.out.println(name);
-        name=name.toLowerCase();// reassigning the contest in teh name variable
+        name=name.toLowerCase();// reassigning the contest in the name variable
         System.out.println(name);
     }
 }

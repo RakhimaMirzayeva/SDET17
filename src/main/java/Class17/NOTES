@@ -1,0 +1,22 @@
+
+Constructors:
+    Constructors helps us to build object from classes easily.
+
+Constructors always have the same name as a class name,
+and they don't have void.
+Methods have a return type, and can have any name.
+Constructors don't have a return type, and supposed to have the same name.
+They help us to give initial values to the instance fields.The name of the constructor must be same as
+class name. Constructors do not have any return types.
+Most of the time constructors are public. Other than initializing the values we can have whatever
+type of code inside the constructor that we like fox example calling methods writing if-else etc.
+    Class ClassName{
+     String name;
+    public ClassName(){
+
+    }
+    public ClassName(String myName)//you can have more than 1 constructors
+
+    }
+
+    Instance field used to store Data.

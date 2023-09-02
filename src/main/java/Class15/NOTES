@@ -1,0 +1,60 @@
+
+Types of variables:
+     There are 3 types of variables:
+          -local
+          -instance
+          -static
+
+ Local variables - are the variables which are created or declared
+     inside the block of code (if else, loops, switch statements, methods)
+
+ Upside:
+      They occupy the memory for the shortest period of time, as soon as Java is
+      done executing the block of code, the are remover from the memory.
+The code that we write using local variable is very easy to debug.
+ Downside:
+      They can only be accessed within the block of code they are created
+
+ Instance variables - are the vars which are created outside tha blocks
+       of code (if else, switch, loops, methods) but inside a class.
+
+ Upside:
+    They can be accessed any where within the that class.
+
+ Downside:
+    They are created when an object of the class is created snd they will
+ stay in the memory as long as that object is in the  memory whether you
+ use them or not.
+
+ Local vs Instance:
+    Whenever it is possible go and create local variables. Only go with instance variables when
+ you cant solve a problem with a local variables.
+ A local variable can never be a static variable( meaning you cant put a static word with
+ a local variable).
+
+Static Variables:
+    Static Variables are created inside a class but outside of a block of code.
+ Static variables has one difference and it is a static keyword.
+ They are created so everyone everywhere can have an access and use it.
+Upside(SV):
+    They are universal when it comes to scope and accessibility. Can be accessed anywhere anytime.
+    We don't even need to create object of that class in which they are created
+    we can simply write the name of the class and we can access it.
+Downside(SV):
+    Static variables occupy the memory for the longest of all.They are created eventhough you dont
+    create any object of that class.
+
+Uses Uses of types of local variable:
+    local:
+        When ever are solving any problem many times we need local variables to temporarely store data.
+        In all of those cases you should be going with local variables.
+
+
+local - temporary
+instance- Long
+static- permanent.
+
+
+
+
+ NOTE: we will do a little bit of StringBuilders

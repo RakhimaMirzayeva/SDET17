@@ -1,0 +1,34 @@
+
+    Methods/Functions/Behaviors/Routines
+methods are blocks of code that contains pre-written code that is executed.
+when we call a methods
+    There are two main types of methods:
+    1) Methods which do not return any data(void types)
+    2) Methods which can return data like in double char etc
+    Syntax:
+
+     dataType methodName (dataType nameOfParameters, dataType nameOfParameters){
+     this is where we write the logic
+     int add(int num1, int num2){
+          int result=num1+num2;
+                  System.out.println(result);
+              return result;
+              }
+     int=>return type of method
+     add=>name of the method
+     int num1, int num2=>parameters
+      {   =>>>> Body of the method
+               int result = num1+num2
+     {
+       int result=num1+num2;
+            System.out.println(result);
+                    return result;
+                                  }
+
+     String Builder is Mutable which means==Changeable
+     String builder is not good for saving memory because its going to create a new string
+     that is why its fast, but not efficient because it uses a lot of memory.
+   String(Immutable) is best for saving memory, but its slow, because it makes a searches in the
+   program(looking if we have that information in the system already, and
+   if we do it will bring that info).
+   String Buffer
