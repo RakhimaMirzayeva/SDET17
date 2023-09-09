@@ -20,3 +20,15 @@ type of code inside the constructor that we like fox example calling methods wri
     }
 
     Instance field used to store Data.
+
+    Selenium Dependencies:
+    <dependencies>
+            <!-- http://mvrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>4.11.0</version>
+            </dependency>
+        </dependencies>
+
+

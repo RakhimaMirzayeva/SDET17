@@ -1,30 +1,27 @@
 package HOMEWORK;
 
+import java.util.Scanner;
+
 public class Replit99 {
     public static void main(String[] args) {
-        String input = "Never odd or even"; // Replace with your input string
-
-        boolean isPalindrome = checkPalindrome(input);
-        System.out.println(isPalindrome);
-    }
-
-    public static boolean checkPalindrome(String input) {
-        // Remove spaces and convert to lowercase
-        input = input.replaceAll(" ", "").toLowerCase();
-
-        int left = 0;
-        int right = input.length() - 1;
-
-        while (left < right) {
-            if (input.charAt(left) != input.charAt(right)) {
-                return false;
+        Scanner inp=new Scanner(System.in);
+        System.out.println("Input:");
+        String givenString=inp.nextLine();
+        String replaceAllString=givenString.replaceAll("\\s","").toLowerCase();
+        boolean result=false;
+        int i=0;
+        int j=replaceAllString.length()-1;
+        while(i<=j){
+            if(replaceAllString.charAt(i)==replaceAllString.charAt(j)){
+                result=true;
+            }else{
+                break;
             }
-            left++;
-            right--;
-
+            i++;
+            j--;
         }
-        return true;
-
-
+        System.out.println(result);
     }
 }
+
+
