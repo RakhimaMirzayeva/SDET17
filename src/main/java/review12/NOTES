@@ -1,0 +1,32 @@
+What is File?
+    Files are entities/objects that we use to store data permanently.
+File Handling:
+    Reading/writing/managing the files using code is called fileHandling
+ As A Tester:
+    You will use .properties file Excel files sometimes .csv files as well as
+    we store configuration related data in .properties file for example usernames
+    passwords urls the name of the browser on which you want to perform testing.
+What data we store in excel files?
+    1)we store the result of testing.
+    2) we store the data related to web forms inside excel. It is done when we need a lot
+    of data to test a website. It is called Data Driven Testing
+Steps to work with a file:
+    1)location/path on the computer.
+    2)Bring the data from a file into RAM.
+    3) Specific software/classes which understands how that file works.
+
+
+        String path = "C:\Users\Syntax\IdeaProjects\JavaSdetBatch17\Files\Config.properties";
+
+        try (FileInputStream fis = new FileInputStream(path)) {
+            Properties properties = new Properties();
+            properties.load(fis);
+            System.out.println(properties.getProperty("browser"));
+
+
+        } catch (IOException io) {
+            System.out.println("Please check the file that you are trying to read");
+            //send an email/report to the team
+            //having a backup code like create new file if the one from above path is not found.
+        }
+

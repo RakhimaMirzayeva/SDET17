@@ -1,0 +1,24 @@
+
+Encapsulation:
+It is one of the four fundamental OOP
+    1) Create classes to write code and store.
+    2) Use private access modifiers to secure the data by limiting the access.
+    3) Create "getter setter methods" for every fields.
+Why should we learn about Encapsulation?
+    It improves the control over data that we store in the fields of a class which
+    leads us to more secure code.
+Getter method===>to get method field
+Setter method===>to set method field
+
+
+Collection Frameworks:
+    Collection frameworks in jave contains a lot of classes and interfaces.
+    Which help us store and manipulate large amount of data easily and efficiently.
+Why Collections Framework?
+    Arrays have limitations
+    1)they are fixed in size meaning once we provide the size we cannot change it afterwards.
+      2) they don't have any built-in methods to help us process data.
+
+White one are Local VAr
+Purple one are Instance var
+

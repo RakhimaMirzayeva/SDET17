@@ -1,0 +1,22 @@
+
+SuperKeyword:
+    Super Keyword refers to parent class. We can use super-keyword to access variables,
+     methods and constructors from the parent class
+Why we should use super keyword:
+    1) To specifically call something from parent class. like a variable or method
+    2) We can use super() to call constructor from parent.
+Method Overloading:
+    1) When we have same method with different  parameters its called method overloading.
+    2) We can change the count of the parameter. we can overload methods as well as constructor.
+    3)We can also change the datatype of parameters if number of parameters are same.
+    4) we can change the sequence if datatype and number of parameters are same.
+
+ Why?
+ 1) Cleaner code. we don't have to come up with different method name.
+ 2) Reuse: same name can be reused many times.
+======================================================================
+MethodOverriding:
+    When same method is present in parent as well as child class. its called
+    method overriding. When we ovveride a method Java prefers the method from the child class.
+Why?
+

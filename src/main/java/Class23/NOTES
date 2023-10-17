@@ -1,0 +1,24 @@
+
+Abstraction:
+    Abstractions is the process of hiding implementation details and showing only the functionality
+    to the end user.
+We use the abstract keyword with methods to avoid the implementation details.
+
+Why should we use Abstraction:
+    1)Flexibility( if we don't know or  want to provide the implementation to the method we can skip it).
+
+ Rules:
+ 1) We can not create the objects of the abstract classes.
+ 2) All the child classes must provide the implementation to the abstract methods which are coming from parent
+ or mark the child class also abstract.
+ 3) An abstract class can have full body methods as well as abstract method.
+ 4) We can have instance or static field in a an abstract class
+ 5) Constructors are also allowed.
+ 6)
+
+
+
+
+
+
+

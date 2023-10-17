@@ -10,4 +10,7 @@ public class Arrays {
         salary[2]=300000;
         System.out.println(salary[2]);
     }
-}
+
+
+    }
+

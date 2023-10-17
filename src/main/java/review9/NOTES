@@ -1,0 +1,39 @@
+PolyMorphism:
+    Its the ability of an object to behave differently. We can achieve polymorphism in two ways one
+     is methodOverloading and other is methodOverriding (very common).
+
+     Why should we learn about Polymorphism?
+     1) It allows us to write dynamic programs. Which can saves us a lot of code repetition.
+
+     Example
+        WebDriver driver=new ChromeDriver();
+Interview Questions:
+1)Do we need Method Overriding for PolyMorphism?
+    Yes, but we can also do this using MethodOverloading.
+2)Can we have private methods as abstract methods?
+    No. Private means no participation in inheritance which means no
+    overriding which means mo overriding which will make abstract method useless.
+3)Can we have a method as final and abstract at the same time?
+    Final means something is incomplete and does not require any modifications
+    and abstract means something is incomplete and requires modification.
+    These are opposite to each other and not allowed.
+
+Abstraction:
+    Abstraction is the process of hiding implementation details
+ and showing only the functionality.(Coffee machines, we don't have to know it works)
+ we can achieve abstraction using abstract classes and interfaces.
+ Why?
+    WHen we use Abstraction is simplifies our code. Those classes which
+    don't need to provide the implementation to the methods can leave it.
+ Keyword:
+    abstract.
+
+Interfaces:
+    Interfaces are collection of public static final variables and methods
+which are by default public abstract. After Java 8 we can have default, static and private
+methods as well.
+WHy use interfaces?
+    1) There is no Diamond problem in interfaces which allow us to have multiple inheritance.
+    2) They are light weight/simple contracts and can be used even the classes are not related to each other
+Interview Questions:
+Can we have a private variables in a interface?

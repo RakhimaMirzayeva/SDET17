@@ -1,0 +1,16 @@
+
+Interfaces:
+    Interfaces are like contracts/agreements. In which we define abstract methods which the classes have to implement.
+ Interfaces specifically designed for abstraction classes.
+ They can also have public static final variables.
+ Why should we learn about interfaces?
+ 1) Specially designed for abstraction.
+ 2) Light weight as compared to abstract classes.
+ 3)We can achieve multiple inheritance in interfaces.
+ 4) There is no diamond problems when having multiple inheritance.
+ 5) Helps us to build things in a modular way can be used with classes even if they are not closely related.
+6) We can have multiple inheritance as there is no Diamond problem.
+7)We can implement keyword when we have to implement as interface.
+
+
+

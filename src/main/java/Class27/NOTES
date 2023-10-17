@@ -1,0 +1,55 @@
+
+Collection Framework:
+    Collections framework is just a collection of classes and interfaces, which contain a lot
+ useful methods that we can you and store and manipulate large amount of data.
+ Why we should use Collection Frameworks?
+    Arrays and variables are not good for storing and manipulating large amounts of data
+ as Arrays are:
+ Arraylist is not good with removing or changing, because all indexes will be shifted and will change the index numbers
+    1)Fixed in size.
+    2)There are no build in methods in Arrays
+ When we should use Arrays are they useless now?
+    Arrays are not useless. Even the ArrayList is built using the arrays under the hood.
+    1) Arrays are fats and very space efficient when we know the size of something in advance
+ we should prefer arrays.
+ Wrapper Classes:
+    Wrapper classes are object types. For every primitive data type we have a wrapper  type.
+ WHY should we use wrapper classes:
+    1) Which can be treated as we treat objects. We call methods which is not possible with primitive.
+    2) Collections frameworks only works with classes which means we can't use primitive.
+ArrayList:
+    The Data is stored in consecutive(side by side) memory locations. Meaning accessing this data
+    will be easier, how ewer if we have to add something later on we must shift the data
+
+***add and remove-LinkList  , access elements-ArrayList
+
+LinkList:
+    Data is not stored in consecutive memory location, meaning its going to be hard and slow to find the access of
+ data as we must go through all the elements which are present before it.
+    But adding and removing elements from in-between will be super easy as we just need to re-adjust the links.
+
+ Interview Questions:
+    90% of the operations are retrieving(recall) the stored  dat and 10% are adding and removing the elements wich data
+  structure we should use Arraylist or LinkedList?
+    ArrayList, as it is much faster and easier to retrieved it.
+
+
+  Sets:
+  set is an interfaces in collections framework. There are three main classes which implements
+  this interfaces they are called 1) Hashset 2) linkedHashSet 3)TreeSet. One thin is common in all of the classes they don't
+  allow to store duplicate data.
+HashSet:
+    UpSide: Its Fast(Batch17)
+    DownSide: it doesn't maintain the insertion order.
+    No duplicates
+    the way we put code inside, doesn't maintain the position of it
+LinkedHashSet:
+    Upside: Maintain the insertion order
+    Downside: its slower than HashSet
+TreeSet:
+    Upside:keeps the data in sorted order(lowest to the greatest), also will not print duplicates
+    DownSide: Slowest of all.
+    Really good for searching data. will make a really good search, you can use treeSets when you don't
+    care about the speed but the result.
+
+Hardly will ask in the interview.just know in general what is the Sets

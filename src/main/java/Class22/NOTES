@@ -1,0 +1,25 @@
+
+ctrl + O will write all override for me
+
+
+
+MethodOverriding:
+    When we have exact same methods in parent and child class, we call it Method Overriding.
+ Why should we learn about method overriding?
+    Method Overriding gives us a lot of flexibility, for example, if we don't like method from parent
+    class we can overriding.
+ Syntax:
+    class Parent{
+    void eat(){
+    sout"Fish"
+    }
+    }
+    class Child extends Parent{
+    void eat(){
+    sout "Chicken"
+    }
+    }
+Parents class is always larger class then Child class, so you can store multiple child classes
+in parent clas but not multiple parent classes in child class.
+
+Overriding is dynamic polyMor

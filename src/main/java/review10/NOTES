@@ -1,0 +1,60 @@
+Collection Frameworks
+    Collection Frameworks is a set of classes and interfaces in java that
+     we use to store large amounts of dat easily. There are many classes
+     containing many useful methods to manipulate the data.
+  These Data Structures are Dynamic.
+
+Why we should be learning CF?
+    1) Not fixed in size like arrays.
+    2) They have ready made methods hich we can just use.
+Any Downside?
+    Yes
+    1) They are slower then arrays
+    2) as they work with non-primitives they occupy more memory.
+Wrapper Classes:
+    Objects that allow us to work with primitive data types in collections.
+    Every primitive data type equivalents wrapper class
+as the CF doesn't support the primitive datatype
+For every primitive datatype java developers created a Class os that we can store the
+primitive data in collections framework.
+They also have a way converting  a primitive to an equivalent wrapper its called boxing.
+And when we do the reverse its called unboxing.
+
+Some of the main classes in collections framework:
+Lists:
+They maintain the insertion order.(remembers the order of how data was inserted)
+They can store duplicate data as well.
+    1)ArrayList===> List
+    2)LinkedList===>List
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+remove()-> only removes one element
+removeIf()-> removes all of the elements which meets the condition
+removeAll()->removes a complete list of the elements
+set()->replaces only one element
+replaceAll()->all the elements which meets a specific condition will be replaced
+
+==============
+***LinkedList slow in calling data but easy to add in between
+fast to call data on ArrayList but hard and slow to add in between in ArrayList.
+==============
+***ArrayList is typically preferred when you require fast random access to elements or
+when you mostly add or remove elements at the end of the list.
+
+Sets:(Sets and Maps don't allow duplicates)
+    They don't allow duplicate data
+HashSet:
+    UpSIde->Fastest of all
+    DownSide->Insertion order is not maintained
+LinkedHashSet:
+    UpSide->maintains the insertion order
+    DownSide-> its a little slow as compared to the HashSet
+TreeSet:
+    UpSide-> Keeps the data sorted(alphabetical order)
+    Insertion speed is super slow.
+    Searching is fastest.
+
+
+
+
